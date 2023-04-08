@@ -1,0 +1,24 @@
+
+#destacados{
+    padding: 3%;
+    text-align: center;
+}
+#carrusel-destacados{
+    display: flex;
+    margin: 2% auto;
+    width: 35%;;
+}
+#carrusel-destacados button.carr {
+    padding: 0%;
+}
+div.modal-body{
+    display: inline-block;
+    align-items: baseline;
+    
+}
+div.modal-body *{
+    margin: 1%;
+}
+main{
+    background-color: #dac8be;
+}
