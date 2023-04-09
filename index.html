@@ -1,135 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" href="/assets/img/icon.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/style/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="icon" href="/assets/img/icon.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/style/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand mb-0 h1" href="#">
-                  <img src="/assets/img/icon.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                  Grupo Zero
-                </a>
-                <ul class="nav justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#galeria">Galería</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="btn btn-success" href="/assets/html/inicio-sesion.html">Iniciar sesion</a>
-                  </li>
-              </div>
-        </nav>
-    </header>
-    <main>
-        <section id="destacados">
-            <div id="title-destacados">
-            <h2>Arte destacada</h2>
-            </div>
-            <div id="carrusel-destacados" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <button type="button" class="carr" data-bs-toggle="modal" data-bs-target="#Modal-1">
-                        <img src="/assets/img/test-1.jpg" class="d-block w-100" alt="test-1">
-                      </button>
-                      <!-- Modal -->
-                    <div class="modal fade" id="Modal-1" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="Modal-1">Calle Sombría</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <h6>Nombre:</h6> <p>Calle Sombría</p> 
-                              <h6>Precio:</h6> <p> $14.000</p> 
-                              <h6>Técnica usada:</h6> <p> Generador de imagenes de Bing</p> 
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button> 
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+  <header>
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="#">
+          <img src="/assets/img/icon.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Grupo Zero
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#galeria">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-success" href="/assets/html/inicio-sesion.html">Iniciar sesion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="destacados">
+      <div id="title-destacados">
+        <h2>Arte destacada</h2>
+      </div>
+      <div id="carrusel-destacados" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <button type="button" class="carr" data-bs-toggle="modal" data-bs-target="#Modal-1">
+              <img src="/assets/img/test-1.jpg" class="d-block w-100" alt="test-1">
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal-1" tabindex="-1" aria-labelledby="Modal-1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="Modal-1">Calle Sombría</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="carousel-item">
-                    <button type="button" class="carr" data-bs-toggle="modal" data-bs-target="#Modal-2">
-                        <img src="/assets/img/test-2.jpg" class="d-block w-100" alt="test-1">
-                      </button>
-                      <!-- Modal -->
-                    <div class="modal fade" id="Modal-2" tabindex="-1" aria-labelledby="Modal-2" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="Modal-2">Constelaciones</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <h6>Nombre:</h6> <p>Constelaciones</p> 
-                              <h6>Precio:</h6> <p> $30.000</p> 
-                              <h6>Técnica usada:</h6> <p> Generador de imagenes de Bing</p> 
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button> 
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                  <div class="modal-body">
+                    <h6>Nombre:</h6>
+                    <p>Calle Sombría</p>
+                    <h6>Precio:</h6>
+                    <p> $14.000</p>
+                    <h6>Técnica usada:</h6>
+                    <p> Generador de imagenes de Bing</p>
                   </div>
-                  <div class="carousel-item">
-                    <button type="button" class="carr" data-bs-toggle="modal" data-bs-target="#Modal-3">
-                        <img src="/assets/img/test-3.jpg" class="d-block w-100" alt="test-1">
-                      </button>
-                      <!-- Modal -->
-                    <div class="modal fade" id="Modal-3" tabindex="-1" aria-labelledby="Modal-3" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="Modal-3">The Dark Side Of The Moon</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <h6>Nombre:</h6> <p>The Dark Side Of The Moon</p> 
-                              <h6>Descripción:</h6> <p>Tributo al 50° aniversario del álbum</p> 
-                              <h6>Precio:</h6> <p> $60.000</p> 
-                              <h6>Técnica usada:</h6> <p> Generador de imagenes de Bing</p> 
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button> 
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-destacados" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carrusel-destacados" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
-        </section>
-        <section id="galeria">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <button type="button" class="carr" data-bs-toggle="modal" data-bs-target="#Modal-2">
+              <img src="/assets/img/test-2.jpg" class="d-block w-100" alt="test-1">
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal-2" tabindex="-1" aria-labelledby="Modal-2" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="Modal-2">Constelaciones</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h6>Nombre:</h6>
+                    <p>Constelaciones</p>
+                    <h6>Precio:</h6>
+                    <p> $30.000</p>
+                    <h6>Técnica usada:</h6>
+                    <p> Generador de imagenes de Bing</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <button type="button" class="carr" data-bs-toggle="modal" data-bs-target="#Modal-3">
+              <img src="/assets/img/test-3.jpg" class="d-block w-100" alt="test-1">
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="Modal-3" tabindex="-1" aria-labelledby="Modal-3" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="Modal-3">The Dark Side Of The Moon</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h6>Nombre:</h6>
+                    <p>The Dark Side Of The Moon</p>
+                    <h6>Descripción:</h6>
+                    <p>Tributo al 50° aniversario del álbum</p>
+                    <h6>Precio:</h6>
+                    <p> $60.000</p>
+                    <h6>Técnica usada:</h6>
+                    <p> Generador de imagenes de Bing</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Salir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-destacados" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-destacados" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="galeria">
 
-        </section>
-        <footer>
-            <section id="contacto">
-              
-            </section>
-        </footer>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </section>
+    <footer>
+      <section id="contacto">
+
+      </section>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
