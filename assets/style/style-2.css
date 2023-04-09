@@ -1,0 +1,25 @@
+#contacto{
+    display:flex;
+    justify-content: center;
+}
+#contacto>div{
+    margin: 5%;
+    padding: 2%;
+    border:solid 1px black;
+    height: 50vh;
+}
+#contacto>div div{
+    border:solid 1px black;
+}
+/* Input del mensaje (form) */
+#contacto>div>form div:nth-child(3) textarea{
+    text-indent: 0%;
+}
+#contacto>div>form{
+    display: flex;
+}
+#contacto>div>form div:nth-child(4){
+    justify-self: end;
+    display: flex;
+    justify-content: end;
+}
