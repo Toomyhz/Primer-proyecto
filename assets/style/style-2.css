@@ -5,12 +5,17 @@
 #contacto>div{
     margin: 5%;
     padding: 2%;
-    border:solid 1px black;
-    height: 50vh;
+    height: 55vh;
+    border: 3px solid salmon;
+    align-items: center;
+    border-radius: 20px;
 }
-#contacto>div div{
-    border:solid 1px black;
-}
+/* #contacto>div div{
+No recuerdo lo que iba aquí xd
+
+    
+} */
+
 /* Input del mensaje (form) */
 #contacto>div>form div:nth-child(3) textarea{
     text-indent: 0%;
@@ -21,5 +26,10 @@
 #contacto>div>form div:nth-child(4){
     justify-self: end;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
+
+footer> section > div > h2{
+    text-align: center;
+}
+
