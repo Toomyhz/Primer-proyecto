@@ -1,7 +1,22 @@
+/* Mismo color de backgroud en el main */
+
 main{
     background-color: #dac8be;
 }
-
-form{
+form:nth-child(1){
     padding: 3%;
+    background-image: url(../img/d0fb542e55ebee0079e431af146de94d0600321e-2000x1120.webp);
+    background-size: cover;
+    color: orange
+}
+
+.sep{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+
+.colorxd{
+    color: burlywood;
+    
 }
