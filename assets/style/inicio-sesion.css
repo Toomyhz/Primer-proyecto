@@ -1,22 +1,36 @@
-/* Mismo color de backgroud en el main */
-
-main{
-    background-color: #dac8be;
-}
-form:nth-child(1){
-    padding: 3%;
+/* Imagen de fondo */
+body{
     background-image: url(../img/d0fb542e55ebee0079e431af146de94d0600321e-2000x1120.webp);
-    background-size: cover;
-    color: orange
+    padding: 0%;
 }
-
-.sep{
+main.row{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+main>section:nth-child(2)>div{
     display: flex;
-    justify-content: flex-end;
-    margin-top: 1vh;
+    margin: 20% 0;
+    background-color: #2b3035;
+    border:1px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 2% 2%;
+}
+main>section:nth-child(2)>div>article{
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+}
+main>section:nth-child(2)>div>form{
+    display: flex;
+    border-radius: 15px;
+    flex-flow:column;
+    justify-content: center;
 }
 
-.colorxd{
-    color: burlywood;
-    
+main>section:nth-child(2)>div>form>button{
+    width:auto;
+    height: auto;
 }
+
