@@ -16,65 +16,73 @@
 </head>
 
 <body>
-
-    <nav class="navbar bg-dark" data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand mb-0 h1" href="../../index.html">
-                <img src="../img/icon.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Grupo Zero
-            </a>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#galeria">Galería</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-success" href="../html/inicio-sesion.html">Iniciar sesion</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+    <header>
+        <nav class="navbar bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand mb-0 h1" href="../../index.html">
+                    <img src="../img/icon.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Grupo Zero
+                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-success" href="../html/inicio-sesion.html">Iniciar sesion</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main class="row">
-        <section class="col-md">
+        <section class="col">
         </section>
         <section class="col-md-5">
-            <div class="row">
-                <article class="col-md">
-                    <h3>Inicio Sesion</h3>
+            <div>
+                <article>
                     <form>
+                        <h3>Inicio Sesion</h3>
                         <div>
-                            <h5>Correo electronico</h5>
-                            <input type="email" class="form-label">
+                            <h5>Usuario</h5>
+                            <input type="text" class="form-label" placeholder="user">
                         </div>
                         <div>
                             <h5>Contraseña</h5>
-                            <input type="email" class="form-label">
+                            <input type="password" class="form-label">
                         </div>
                         <button class="btn btn-success">Iniciar Sesion</button>
-                        <!-- <article class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="ejemplo@email.com">
-                        </article>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Ingrese su contraseña">
-                            <label id="" class="col-3">No compartas tus credenciales con nadie!</label>
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button> -->
+                        <button class="btn btn-outline-danger">Olvide la contraseña</button>
                     </form>
                 </article>
-                o
-                <article class="col-md">
-                    <h3>Registro</h3>
+                <section>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </section>
+                <article>
+                    <form action="">
+                        <h3>Registro</h3>
+                        <div>
+                            <h5>Nombre de usuario</h5>
+                            <input type="text" placeholder="user">
+                        </div>
+                        <div>
+                            <h5>Correo electronico</h5>
+                            <input type="email" placeholder="user@email.com">
+                        </div>
+                        <div>
+                            <h5>Contraseña</h5>
+                            <input type="password">
+                            <h6>Ingrese nuevamente</h6>
+                            <input type="password">
+                        </div>
+                        <button class="btn btn-primary">
+                            Registrarse
+                        </button>
+                    </form>
                 </article>
             </div>
         </section>
