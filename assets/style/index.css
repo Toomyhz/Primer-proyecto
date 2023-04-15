@@ -1,0 +1,47 @@
+/* Main */
+body{
+    padding: 0%;
+}
+
+main.row{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+/* Section-2 */
+main>section:nth-child(2){
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+main>section:nth-child(2)>div{
+    display:block;
+    border:1px solid black;
+    width: 400px;
+    height: 400px;
+}
+main>section:nth-child(2)>div>*{
+    border: 1px solid black;
+}
+main>section:nth-child(2)>div>h2{
+    display: flex;
+    justify-content: center;
+}
+main>section:nth-child(2)>div>article{
+    display:flex;
+    width: 85%;
+    height: 85%;
+    margin:auto;
+}
+
+/* Footer */
+footer.row{
+    margin: 0%;
+    padding: 0%;
+}
+#contacto{
+    border: 1px solid black;
+    border-radius:25px;
+    padding: 3%;
+}
