@@ -1,116 +1,190 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" href="./assets/img/icon.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="icon" href="./assets/img/icon.jpg">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/style/index.css">
-</head>
-
-<body>
-  <header>
-    <nav class="navbar bg-dark" data-bs-theme="dark">
-      <div class="container px-5">
-        <a class="navbar-brand mb-0 h1" href="./index.html">
-          <img src="./assets/img/icon.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          Grupo Zero
-        </a>
-        <ul class="nav justify-content-end mx-3">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#galeria">Galería</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-success" href="./assets/html/inicio-sesion.html">Iniciar sesion</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main class="row">
-    <section class="col-md"></section>
-    <!-- Section central -->
-    <section class="col-md-7">
-      <div>
-        <h2>Destacados</h2>
-        <article id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <header class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </header>
-          <section class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/img/test-1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/test-2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/test-3.jpg" class="d-block w-100" alt="...">
-            </div>
-            <footer>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-              </button>
-            </footer>
-          </section>
-        </article>
-      </div>
-    </section>
-    <section class="col-md"></section>
-    <footer class="row">
+  <body>
+    <header>
+      <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container px-5">
+          <a class="navbar-brand mb-0 h1" href="./index.html">
+            <img
+              src="./assets/img/icon.jpg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Grupo Zero
+          </a>
+          <ul class="nav justify-content-end mx-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#galeria"
+                >Galería</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-success" href="./assets/html/inicio-sesion.html"
+                >Iniciar sesion</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="row">
       <section class="col-md"></section>
-      <section class="col-md">
-        <div id="contacto" class="container">
-          <h2>Contacto</h2>
-          <form class="row g-3">
-            <header class="col-md-12 row">
-              <div class="col-md-6">
-                <label for="inputUser" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="inputUser" placeholder="ej: Usuario ">
-              </div>
-              <div class="col-md-6">
-                <label for="inputEmail" class="form-label">Correo</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="ej: Usuario@doc.com">
-              </div>
+      <!-- Section central -->
+      <section class="col-md-7">
+        <div>
+          <h2>Destacados</h2>
+          <article
+            id="carouselExampleIndicators"
+            class="carousel slide carousel-fade carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <header class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </header>
-            <footer class="co-md-12">
-              <div class="col-md">
-                <label for="inputMensaje" class="form-label">Mensaje</label>
-                <textarea type="text" class="form-control" id="inputMensaje" placeholder="Ingrese su mensaje">
-              </textarea>
+            <section class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/img/test-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
-              <div class="col-md">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+              <div class="carousel-item">
+                <img
+                  src="./assets/img/test-2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
-            </footer>
-          </form>
+              <div class="carousel-item">
+                <img
+                  src="./assets/img/test-3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <footer>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </footer>
+            </section>
+          </article>
         </div>
       </section>
       <section class="col-md"></section>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-      crossorigin="anonymous"></script>
-  </main>
-</body>
-
+      <footer class="row">
+        <section class="col-md"></section>
+        <section class="col-md">
+          <div id="contacto" class="container">
+            <h2>Contacto</h2>
+            <form class="row g-3">
+              <header class="col-md-12 row">
+                <div class="col-md-6 mt-3">
+                  <label for="inputUser" class="form-label">Nombre</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputUser"
+                    placeholder="ej: Usuario "
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail" class="form-label mt-3">Correo</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="ej: Usuario@doc.com"
+                  />
+                </div>
+              </header>
+              <footer class="co-md-12">
+                <div class="col-md">
+                  <label for="inputMensaje" class="form-label">Mensaje</label>
+                  <textarea
+                    type="text"
+                    class="form-control"
+                    id="inputMensaje"
+                    placeholder="Ingrese su mensaje"
+                  >
+                  </textarea>
+                </div>
+                <div class="col-md mt-3">
+                  <button type="submit" class="btnn">Enviar</button>
+                </div>
+              </footer>
+            </form>
+          </div>
+        </section>
+        <section class="col-md"></section>
+      </footer>
+      <script src="assets/js/script.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
 </html>

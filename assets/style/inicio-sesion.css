@@ -92,3 +92,4 @@ main>section:nth-child(2)>div>article>form>div{
 main>section:nth-child(2)>div>article:nth-child(3)>form>div>*{
     margin: 2%;
 }
+

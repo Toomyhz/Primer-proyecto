@@ -1,4 +1,7 @@
 /* Main */
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
 body{
     padding: 0%;
     background-color: rgba(255, 246, 225, 0.95);
@@ -42,10 +45,11 @@ main>section:nth-child(2)>div>article{
 footer.row{
     margin: 0%;
     padding: 0%;
+    color: white;
 }
 
 footer > section > div{
-    background: linear-gradient(rgb(0, 171, 60), #7300ff);
+    background: linear-gradient(#005240, #7300ff);
 }
 #contacto{
     border: 2px solid black;
@@ -56,3 +60,17 @@ footer > section > div{
 section > div img {
     border-radius: 40px;
 }
+
+.btnn{
+    height: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .4);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    background: linear-gradient(to right, #3d8a53,
+    #000fb1);
+    border: none;
+    width: 70px;
+    border: solid 1px #ff000092;
+}
+
